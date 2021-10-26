@@ -41,6 +41,12 @@
       "last 1 safari version"
     ]
   },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.5",
+    "prettier": "^2.4.1"
+  },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
