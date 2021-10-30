@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Transaction-history.module.scss';
+import TableItem from './TableItem';
 
 export default function TransactionHistroy({ items }) {
   return (
@@ -14,11 +15,12 @@ export default function TransactionHistroy({ items }) {
 
       <tbody>
         {items.map(item => (
-          <tr key={item.id}>
-            <td>{item.type}</td>
-            <td>{item.amount}</td>
-            <td>{item.currency}</td>
-          </tr>
+          <TableItem
+            key={item.id}
+            type={item.type}
+            amount={item.amount}
+            currency={item.currency}
+          />
         ))}
       </tbody>
     </table>
