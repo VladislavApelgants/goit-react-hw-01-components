@@ -1,0 +1,24 @@
+.friendList {
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #f7f7f79d;
+  -webkit-box-shadow: 9px 7px 5px -5px rgba(96, 96, 96, 0.6);
+  -moz-box-shadow: 9px 7px 5px -5px rgba(96, 96, 96, 0.6);
+  box-shadow: 9px 7px 5px -5px rgba(96, 96, 96, 0.6);
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}

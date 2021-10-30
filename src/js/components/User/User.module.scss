@@ -1,0 +1,29 @@
+.profile {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #c4c4c4;
+  -webkit-box-shadow: 12px 13px 5px -1px rgba(193, 193, 193, 0.6);
+  -moz-box-shadow: 12px 13px 5px -1px rgba(193, 193, 193, 0.6);
+  box-shadow: 12px 13px 5px -1px rgba(193, 193, 193, 0.6);
+}
+
+.stats {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c4c4c4;
+}
