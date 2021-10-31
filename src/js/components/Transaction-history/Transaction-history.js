@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Transaction-history.module.scss';
-import TableItem from './TableItem';
+import TableItem from './Table-item';
 
 export default function TransactionHistroy({ items }) {
   return (
